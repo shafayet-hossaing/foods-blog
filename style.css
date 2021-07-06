@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/***************** Menu-Area *****************/
+nav{
+    display: flex;
+    background: slateblue;
+    padding: 10px 100px;
+}
+nav #logo-area{
+    width: 20%;
+}
+nav #menu-area{
+    width: 85%;
+    text-align: right;
+}
+nav #brand-logo{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+#brand-span{
+    color: #e15f41;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    /* text-align: center; */
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/**************** First-Section ***************/
+#first-section{
+    display:flex;
+    padding: 60px 130px;
+}
+.order-area{
+    width:50%;
+}
+.order-area h1{
+    font-size: 65px;
+    line-height: 1.3em;
+    margin-top: 130px;
+    font-weight: 900;
+    color: #666666;
+}
+.order-area img{
+    width: 100%;
+    margin-left: 80px;
+}
+.order-area p{
+    color: #666666;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    word-spacing: 2px;;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(to right,orange, red);
+    padding: 21px 55px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 20px #e15f41;
+    
+}
+#first-section-span{
+    color: #e15f41;
+}
+/******************** Second-Section *******************/
+#second-section{
+    display: flex;
+    padding: 60px 80px 0 80px;
+    background-image: url(images/shapes/7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.contact-area{
+    width: 50%;
+}
+#second-section img{
+    width: 45%;
+    margin-left: 90px;
+}
+.contact-area h2{
+    margin-top: 160px;
+    font-size: 40px;
+    color: #666666;
+}
+.contact-area p{
+    line-height: 1.3em;
+    font-size: 20px;
+    word-spacing: 3px;
+    margin-bottom: 90px;
+    color: #666666;
+    font-weight: 500;
+}
+/***************** Third-Section ****************/
+#third-section{
+    padding: 80px 140px;
+    background: #f1f2f6;
+    text-align: center;
+}
+#third-section h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #666666;
+}
+#third-section-p{
+    line-height: 1.3em;
+    color: #666666;
+    margin-bottom: 120px;
+}
+/* Card */
+.card-area{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 28%;
+    text-align: left;
+    border: 20px solid white;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 2px 5px 25px rgba(207, 195, 195, 0.63);
+    margin-bottom: 120px;
+}
+.card img{
+    width: 100%;
+}
+.card h4{
+    font-size: 30px;
+    margin: 45px 0 20px 0;
+    font-weight: 900;
+}
+.card p{
+    color: #666666;
+    font-size: 20px;
+    line-height: 1.6em;
+    padding: 0;
+}
+/************* Social-Box *************/
+#social-box{
+    width: 85%;
+    background: white;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 90px;
+    box-shadow: 2px 5px 15px rgba(207, 195, 195, 0.63);
+}
+.social-div h1{
+    font-weight: 900;
+    font-size: 45px;
+    margin: 0
+}
+/****************** Fourth-Section ***************/
+#fourth-section{
+    display: flex;
+}
+.btn-for-order{
+    text-decoration: none;
+    background-image: linear-gradient(to right,#fff, #f1f2f6);
+    padding: 21px 55px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 20px rgb(194, 181, 181);
+}
+.left{
+    background: hsl(0, 97%, 46%);
+    padding: 250px 70px;
+    color: white;
+    width: 30%;
+}
+.left h1{
+    margin: 0;
+    font-weight: 900;
+    font-size: 50px;
+}
+.left p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 70px;
+}
+.left h4{
+    font-size: 20px;
+}
+.right{
+    width: 70%;
+    background-image: url(images/food/home-5-rev-img-2.jpg);
+}
+/****************** Fifth-Area ****************/
+#fifth-area{
+    padding: 190px 0;
+    background-image: url(images/food/1000_F_248929619_JkVBYroM1rSrshWJemrcjriggudHMUhV.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+#fifth-area .foods{
+    width: 30%;
+    margin: auto;
+}
+#fifth-area h1{
+    font-size: 40px;
+    font-weight: 900;
+    background: white;
+    display: inline-block;
+    padding: 20px 80px;
+    border-radius: 10px;
+}
+#fifth-area p{
+    font-size: 16px;
+    font-weight: 900;
+    background: white;
+    padding: 20px 80px;
+    border-radius: 10px;
+}
+
+/**************** Footer-Area ******************/
+footer{
+    text-align: center;
+    padding: 20px 60px 120px 40px;
+    background: black;
+}
+footer h1{
+    color: #666666;
+    margin-bottom: 40px;
+}
+#footer-span{
+    color: #e15f41;
+}
+footer p{
+    color: #bac4c7;
+    word-spacing: 2.5px;
+}
