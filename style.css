@@ -182,11 +182,11 @@ nav ul li a{
     text-decoration: none;
     background-image: linear-gradient(to right,#fff, #f1f2f6);
     padding: 21px 55px;
-    color: black;
+    color: red;
     font-weight: 700;
     font-size: 20px;
     border-radius: 40px;
-    box-shadow: 5px 5px 20px rgb(194, 181, 181);
+    box-shadow: 5px 5px 20px #e15f41;
 }
 .left{
     background: hsl(0, 97%, 46%);
